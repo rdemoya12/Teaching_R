@@ -202,7 +202,7 @@ plot the `austres` data set using a built in `plot()` function.
 plot(austres) # to visualize the data
 ```
 
-![](R_Rstudio_intro_v2_files/figure-gfm/austres1-1.png)<!-- -->
+![](R_Rstudio_plots_intro_files/figure-gfm/austres1-1.png)<!-- -->
 
 From this plot you can clearly see an increase in residents in Australia
 between 1971 and 1993. This graph could be used in publications to show
@@ -293,7 +293,7 @@ bar <- ggplot(iris, aes(x=Sepal.Length))+ # Sets up the stage for ggplot
 bar
 ```
 
-![](R_Rstudio_intro_v2_files/figure-gfm/plots2-1.png)<!-- -->
+![](R_Rstudio_plots_intro_files/figure-gfm/plots2-1.png)<!-- -->
 
 One great part about the `ggplot2` package is the built-in customization
 of any graph, like fill and alpha.
@@ -305,7 +305,7 @@ bar2 <- ggplot(iris, aes(x=Sepal.Length))+ # Sets up a ggplot canvas
 bar2
 ```
 
-![](R_Rstudio_intro_v2_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![](R_Rstudio_plots_intro_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
 ### A box plot for species vs septal length
 
@@ -316,7 +316,7 @@ box <- ggplot(iris, aes(x= Species, y= Sepal.Length))+
 box
 ```
 
-![](R_Rstudio_intro_v2_files/figure-gfm/plots3-1.png)<!-- -->
+![](R_Rstudio_plots_intro_files/figure-gfm/plots3-1.png)<!-- -->
 
 ### Labeling data is easy with `ggplot2`
 
@@ -333,7 +333,7 @@ box2 <- ggplot(iris, aes(x= Species, y= Sepal.Length))+
 box2
 ```
 
-![](R_Rstudio_intro_v2_files/figure-gfm/plots4-1.png)<!-- -->
+![](R_Rstudio_plots_intro_files/figure-gfm/plots4-1.png)<!-- -->
 
 ### A dot plot can also show patterns
 
@@ -347,7 +347,7 @@ dot <- ggplot(data = iris) +
 dot
 ```
 
-![](R_Rstudio_intro_v2_files/figure-gfm/plots5-1.png)<!-- -->
+![](R_Rstudio_plots_intro_files/figure-gfm/plots5-1.png)<!-- -->
 
 The `ggplot2` package allows for many different kinds of plots and the
 customization options are plentiful. Another tutorial will be avaiable
